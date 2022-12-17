@@ -1,0 +1,172 @@
+/* green square styles */
+
+body {
+	background: linear-gradient(-45deg, #f3e7cf, #604487, #00a145, #009ce7);
+
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.mainbox {
+width: 100%;
+height: 100%;
+}
+
+.bookcover {
+  display: block;
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   border: solid #f4e9d3 20px;
+   background-color: #fac819;
+   height: 600px;
+   width: 400px;
+   box-shadow: 10px 10px 5px #292929;
+}
+
+
+.eye-shape {
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 100% 0px;
+  transform: rotate(135deg);
+}
+
+.eye-shape:hover {
+	transform: translateY(-10px);
+}
+.circle1 {
+    background: #fac819;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: solid black 3px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 112px;
+    margin-top: 10px;
+top: 150px;
+right:330px;
+}
+
+
+.circle1:hover {
+	/* Toggle our animation play state to running when we are hovering over our sticker */
+	animation-play-state: running;
+}
+
+
+@keyframes spin {
+	100% {transform: rotate(1turn); }
+}
+
+.circle2 {
+    background: #fac819;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: solid black 5px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 200px;
+    margin-top: 50;
+}
+
+
+.blackcircle {
+    background: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 330px;
+    margin-top: -40px;
+}
+
+.redcircle {
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: solid red 5px;
+    position: static;
+    z-index: 1;
+    margin-left: 315px;
+    margin-top: -55px;
+}
+
+
+.greencircle {
+    background: green;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: solid green 5px;
+    position: static;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+
+
+.eye-shape2 {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 100% 0px;
+  transform: rotate(40deg);
+  margin-left: 180px;
+  margin-top: -80px;
+  position: static;
+	transition: background-color 2s ease-out 100ms
+}
+
+.eye-shape2:hover {
+	transform: translateY(-10px);
+}
+.circle3 {
+    background: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: solid black 3px;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 160px
+}
+
+.tworowcircle {
+  width: 90px;
+   height: 90px;
+   background-color: #AFAFAF;
+   border-radius: 20px 20px 0 0;
+   margin-left: 190px;
+   margin-top: 160px;
+   top: 130px;
+   right:320px;
+
+ }
+
+ .eye-shape{
+ transition: background-color 2s ease-out 100ms
+ }
+
+ eye-shape:hover {
+   background-color: #black;
+ }
